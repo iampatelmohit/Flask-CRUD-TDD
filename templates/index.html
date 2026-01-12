@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Comment Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <h2>Task 1: Project Discussion</h2>
+    
+    <div class="input-container">
+        <input type="text" id="new-comment-text" placeholder="Write a comment...">
+        <button class="btn btn-green" onclick="addComment()">Add Comment</button>
+    </div>
+
+    <hr>
+
+    <h3>Comments</h3>
+    <div id="comments-list">
+        <p>Loading comments...</p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

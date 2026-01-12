@@ -1,0 +1,45 @@
+body { 
+    font-family: sans-serif; 
+    max-width: 600px; 
+    margin: 2rem auto; 
+    padding: 0 1rem; 
+}
+
+.comment-box { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.comment-header { 
+    font-weight: bold; 
+    color: #555; 
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.btn { 
+    cursor: pointer; 
+    padding: 5px 10px; 
+    margin-left: 5px; 
+    border: none; 
+    border-radius: 3px; 
+    color: white;
+}
+
+.btn-red { background-color: #e74c3c; }
+.btn-blue { background-color: #3498db; }
+.btn-green { background-color: #2ecc71; }
+
+input[type="text"] { 
+    padding: 8px; 
+    width: 70%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
